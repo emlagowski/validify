@@ -19,6 +19,7 @@ class ValueInRangeTest extends Specification {
         0     | 0   | 1   || true            | 0
         1     | 0   | 1   || true            | 0
         2     | 0   | 1   || false           | 1
+        2     | 100 | 200 || false           | 1
         -3    | -5  | 5   || true            | 0
         null  | -5  | 5   || false           | 1
     }
