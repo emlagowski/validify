@@ -12,7 +12,6 @@
     <artifactId>validify-core</artifactId>
 
     <properties>
-        <sonar.projectKey>emlagowski_validify</sonar.projectKey>
         <sonar.tests>src/test/groovy</sonar.tests>
     </properties>
 
