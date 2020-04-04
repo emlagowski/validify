@@ -13,6 +13,7 @@
 
     <properties>
         <sonar.projectKey>emlagowski_validify</sonar.projectKey>
+        <sonar.tests>src/test/groovy,src/test/java</sonar.tests>
     </properties>
 
     <dependencies>
