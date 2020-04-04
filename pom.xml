@@ -7,7 +7,7 @@
     <groupId>io.github.emlagowski</groupId>
     <artifactId>validify</artifactId>
     <packaging>pom</packaging>
-    <version>0.1</version>
+    <version>0.1.1</version>
 
     <properties>
         <sonar.organization>emlagowski</sonar.organization>
