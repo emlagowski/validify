@@ -2,6 +2,7 @@ package io.github.emlagowski.validify;
 
 import java.util.function.Function;
 
+@FunctionalInterface
 public interface Validation<T> extends Function<T, ValidationResult> {
 
     default Validation<T> and(Validation<T> other) {
