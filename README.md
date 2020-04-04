@@ -1,4 +1,4 @@
-# Validify - Java validation framework
+# Validify - Java validation library
 
 This library purpose is to make validation process more straightforward. 
 It helps to validate objects and keep information about errors occurred during validation.
