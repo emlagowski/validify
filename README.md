@@ -1,6 +1,10 @@
 # Validify - Java validation library
 
+![Sonar Quality Gate](https://img.shields.io/sonar/quality_gate/io.github.emlagowski:validify?server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge)
+![Sonar Violations (long format)](https://img.shields.io/sonar/violations/io.github.emlagowski:validify?format=long&server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge)
 ![Sonar Tech Debt](https://img.shields.io/sonar/tech_debt/io.github.emlagowski:validify?server=https%3A%2F%2Fsonarcloud.io&sonarVersion=8.2&style=for-the-badge)
+![Sonar Test Count](https://img.shields.io/sonar/total_tests/io.github.emlagowski:validify?server=https%3A%2F%2Fsonarcloud.io&sonarVersion=8.2&style=for-the-badge)
+![Sonar Tests](https://img.shields.io/sonar/tests/io.github.emlagowski:validify?compact_message&server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge)
 ![Codecov](https://img.shields.io/codecov/c/github/emlagowski/validify?style=for-the-badge)
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/emlagowski/validify?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/emlagowski/validify?style=for-the-badge)
