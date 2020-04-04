@@ -31,12 +31,12 @@ public class ValidationResult {
     }
 
     public ValidationResult and(ValidationResult otherResult) {
-        boolean combineSuccess = this.success & otherResult.success;
+        boolean combineSuccess = this.success && otherResult.success;
         return new ValidationResult(combineSuccess, merge(this.messages, otherResult.messages));
     }
 
     public ValidationResult or(ValidationResult otherResult) {
-        boolean combineSuccess = this.success | otherResult.success;
+        boolean combineSuccess = this.success || otherResult.success;
         return new ValidationResult(combineSuccess, merge(this.messages, otherResult.messages));
     }
 
