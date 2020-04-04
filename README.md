@@ -1,5 +1,8 @@
 # Validify - Java validation library
 
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/emlagowski/validify?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/emlagowski/validify?style=for-the-badge)
+
 This library purpose is to make validation process more straightforward. 
 It helps to validate objects and keep information about errors occurred during validation.
 
