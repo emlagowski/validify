@@ -71,4 +71,11 @@ public class CoreValidations {
                 .map(v -> ValidationResult.valid())
                 .orElseGet(() -> ValidationResult.invalid("'%s' does not start with '%s'", value, startingValue));
     }
+
+    public static Validation<String> endsWith(String endingValue) {
+        return value -> Optional.ofNullable(value)
+                .filter(v -> v.endsWith(endingValue))
+                .map(v -> ValidationResult.valid())
+                .orElseGet(() -> ValidationResult.invalid("'%s' does not end with '%s'", value, endingValue));
+    }
 }

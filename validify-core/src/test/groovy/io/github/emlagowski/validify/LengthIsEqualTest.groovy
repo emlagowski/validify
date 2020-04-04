@@ -3,7 +3,7 @@ package io.github.emlagowski.validify
 import spock.lang.Specification
 import spock.lang.Unroll
 
-class LengthIsEqualSpec extends Specification {
+class LengthIsEqualTest extends Specification {
 
     @Unroll
     def 'when #value length is equal to specified #length validation result should be successful=#expectedSuccess'() {

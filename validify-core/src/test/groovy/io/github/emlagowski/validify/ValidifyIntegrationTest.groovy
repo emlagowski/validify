@@ -12,7 +12,7 @@ import static io.github.emlagowski.validify.CoreValidations.isNotEmpty
 import static io.github.emlagowski.validify.CoreValidations.lengthIsEqual
 import static io.github.emlagowski.validify.CoreValidations.is
 
-class ValidifyIntegrationSpec extends Specification {
+class ValidifyIntegrationTest extends Specification {
 
     @Unroll
     def 'Three validations connected with AND and OR result with correct result for #value'() {
