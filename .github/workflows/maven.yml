@@ -27,5 +27,7 @@ jobs:
     - name: Codecov
       uses: codecov/codecov-action@v1.0.6
 
-    - name: Build with Maven
+    - name: SonarCloud scan
       run: mvn sonar:sonar
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
