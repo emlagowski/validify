@@ -1,5 +1,6 @@
 # Validify - Java validation library
 
+![Codecov](https://img.shields.io/codecov/c/github/emlagowski/validify?style=for-the-badge)
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/emlagowski/validify?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/emlagowski/validify?style=for-the-badge)
 
