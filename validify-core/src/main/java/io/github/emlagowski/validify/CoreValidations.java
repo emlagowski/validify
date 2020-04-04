@@ -64,4 +64,11 @@ public class CoreValidations {
                 .map(v -> ValidationResult.valid())
                 .orElseGet(() -> ValidationResult.invalid("'%s' is not in %s", value, values));
     }
+
+    public static Validation<String> startsWith(String startingValue) {
+        return value -> Optional.ofNullable(value)
+                .filter(v -> v.startsWith(startingValue))
+                .map(v -> ValidationResult.valid())
+                .orElseGet(() -> ValidationResult.invalid("'%s' does not start with '%s'", value, startingValue));
+    }
 }
