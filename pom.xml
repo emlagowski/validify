@@ -40,5 +40,12 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub emlagowski Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/emlagowski/validify</url>
+        </repository>
+    </distributionManagement>
 
 </project>
