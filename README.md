@@ -1,5 +1,6 @@
 # Validify - Java validation library
 
+![Sonar Tech Debt](https://img.shields.io/sonar/tech_debt/io.github.emlagowski:validify?server=https%3A%2F%2Fsonarcloud.io&sonarVersion=8.2&style=for-the-badge)
 ![Codecov](https://img.shields.io/codecov/c/github/emlagowski/validify?style=for-the-badge)
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/emlagowski/validify?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/emlagowski/validify?style=for-the-badge)
