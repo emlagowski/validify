@@ -9,6 +9,12 @@
     <packaging>pom</packaging>
     <version>0.1</version>
 
+    <properties>
+        <sonar.organization>emlagowski</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.projectBaseDir>validify-core/</sonar.projectBaseDir>
+    </properties>
+
     <build>
         <pluginManagement>
             <plugins>
