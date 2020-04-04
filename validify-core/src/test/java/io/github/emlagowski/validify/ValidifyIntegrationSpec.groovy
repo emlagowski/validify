@@ -3,7 +3,14 @@ package io.github.emlagowski.validify
 import spock.lang.Specification
 import spock.lang.Unroll
 
-import static io.github.emlagowski.validify.CoreValidations.*
+import static io.github.emlagowski.validify.CoreValidations.allCharactersAreDigits
+import static io.github.emlagowski.validify.CoreValidations.lengthInRange
+import static io.github.emlagowski.validify.CoreValidations.isEmpty
+import static io.github.emlagowski.validify.CoreValidations.matches
+import static io.github.emlagowski.validify.CoreValidations.isIn
+import static io.github.emlagowski.validify.CoreValidations.isNotEmpty
+import static io.github.emlagowski.validify.CoreValidations.lengthIsEqual
+import static io.github.emlagowski.validify.CoreValidations.is
 
 class ValidifyIntegrationSpec extends Specification {
 

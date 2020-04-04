@@ -3,7 +3,6 @@ package io.github.emlagowski.validify;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
-import java.util.List;
 
 public class ValidationResult {
     private final boolean success;

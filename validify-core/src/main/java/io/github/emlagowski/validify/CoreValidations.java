@@ -1,9 +1,7 @@
 package io.github.emlagowski.validify;
 
 import java.util.Collection;
-import java.util.Collections;
 import java.util.Optional;
-import java.util.stream.Stream;
 
 public class CoreValidations {
 
@@ -64,6 +62,6 @@ public class CoreValidations {
         return value -> Optional.ofNullable(value)
                 .filter(values::contains)
                 .map(v -> ValidationResult.valid())
-                .orElseGet(() -> ValidationResult.invalid("'%s' is not in [%s]", value, values));
+                .orElseGet(() -> ValidationResult.invalid("'%s' is not in %s", value, values));
     }
 }

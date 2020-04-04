@@ -6,6 +6,7 @@
 
     <groupId>io.github.emlagowski</groupId>
     <artifactId>validify</artifactId>
+    <packaging>pom</packaging>
     <version>0.1-SNAPSHOT</version>
     <build>
         <plugins>
@@ -19,6 +20,10 @@
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>examples</module>
+        <module>validify-core</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.spockframework</groupId>
